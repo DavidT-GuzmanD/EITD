@@ -13,5 +13,5 @@ Instalar módulo moongose para insertar un registro a MongoAtlasDB.
 Instalar módulo mqtt.
 
 
-**Note: Para poder hacer que este programa funcione tienes que irte a `node_modules\jsonschema\lib\validator.js` y remplazar el codigo de la linea 106 por `node_modules\jsonschema\lib\validator.js`**
+**Note: Para poder hacer que este programa funcione tienes que irte a `node_modules\jsonschema\lib\validator.js` y remplazar el codigo de la linea 106 por `if((typeof schema == 'boolean' && typeof schema == 'object') || schema === null){`**
 
